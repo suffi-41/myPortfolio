@@ -25,7 +25,7 @@ const Welcome = () => {
   return (
     <section
       id="home"
-      className="min-h-screen bg-transparent flex items-center justify-center relative overflow-hidden"
+      className="min-h-screen bg-transparent flex items-center justify-center w-full py-20 px-4 bg-gray-800/50 relative"
     >
       {/* Floating background elements */}
       <motion.div
@@ -45,12 +45,12 @@ const Welcome = () => {
         <div className="flex flex-col-reverse md:flex-row items-center  justify-between gap-8">
           {/* Text content */}
           <motion.div
-            className="md:w-1/2 text-center md:text-left"
+            className="md:w-1/2 text-center lg:ml-20 md:text-left"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 whitespace-nowrap">
+            <h1 className="text-3xl lg:text-5xl font-bold text-white mb-4 whitespace-nowrap">
               <ReactTyped
                 strings={animatedInformation}
                 typeSpeed={40}
@@ -125,7 +125,7 @@ const Welcome = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="relative w-64 h-64 md:w-96 md:h-96">
+            <div className="relative w-64 h-64 md:w-72 md:h-72 lg:w-96 lg:h-96">
               <motion.div
                 className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl"
                 variants={floatingVariants}
