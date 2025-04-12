@@ -41,8 +41,8 @@ const Welcome = () => {
         animate={{ y: -100, x: 200, rotate: 405 }}
         transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
       />
-      <div className="container mx-auto px-20 z-10">
-        <div className="flex flex-col-reverse md:flex-row items-center  justify-between gap-10">
+      <div className="container mx-auto  p-10 z-10">
+        <div className="flex flex-col-reverse md:flex-row items-center  justify-between gap-8">
           {/* Text content */}
           <motion.div
             className="md:w-1/2 text-center md:text-left"
@@ -72,7 +72,7 @@ const Welcome = () => {
             <div className="flex gap-4 justify-center md:justify-start">
               <motion.a
                 href="#contact"
-                className="px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 flex items-center gap-2"
+                className="px-6 py-3 whitespace-nowrap bg-blue-500 text-white rounded-full hover:bg-blue-600 flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -82,7 +82,7 @@ const Welcome = () => {
                 href="../assets/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 border border-blue-500 text-blue-500 rounded-full hover:bg-blue-500/10 flex items-center gap-2"
+                className="px-6 py-3 border whitespace-nowrap border-blue-500 text-blue-500 rounded-full hover:bg-blue-500/10 flex items-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 download
@@ -120,7 +120,7 @@ const Welcome = () => {
 
           {/* Image/Illustration */}
           <motion.div
-            className="md:w-1/2 flex justify-center"
+            className="md:w-1/2  flex justify-center"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
