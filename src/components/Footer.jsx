@@ -104,7 +104,7 @@ const Footer = () => {
           className="border-t border-gray-800 mt-12 py-6 text-center"
         >
           <p className="text-sm">
-            © {currentYear} John Doe. Made with{" "}
+            © {currentYear} Mohd Suifyan. Made with{" "}
             <FiHeart className="inline text-red-400" /> using React & Tailwind
           </p>
         </motion.div>
