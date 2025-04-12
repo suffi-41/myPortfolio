@@ -41,8 +41,8 @@ const Welcome = () => {
         animate={{ y: -100, x: 200, rotate: 405 }}
         transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
       />
-      <div className="container mx-auto px-4 z-10">
-        <div className="flex flex-col-reverse md:flex-row items-center  justify-between gap-8">
+      <div className="container mx-auto px-20 z-10">
+        <div className="flex flex-col-reverse md:flex-row items-center  justify-between gap-10">
           {/* Text content */}
           <motion.div
             className="md:w-1/2 text-center md:text-left"
@@ -132,7 +132,7 @@ const Welcome = () => {
                 animate="animate"
               />
               <motion.img
-                src="../../public/assets/media/mypic.jpg" // Replace with your image path
+                src="../../assets/media/mypic.jpg" // Replace with your image path
                 alt="Profile"
                 className="relative z-10 rounded-full border-4 border-blue-500/30 w-full h-full object-cover"
                 variants={floatingVariants}
