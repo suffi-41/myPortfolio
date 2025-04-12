@@ -11,10 +11,10 @@ const Navbar = ({ value }) => {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
-    {name:"Experience", href:"#experience"},
+    { name: "Experience", href: "#experience" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" }
+    { name: "Contact", href: "#contact" },
   ];
 
   const socialLinks = [
@@ -83,14 +83,6 @@ const Navbar = ({ value }) => {
                 </motion.a>
               ))}
             </div>
-            <motion.a
-              href="#contact"
-              className="ml-4 px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Hire Me
-            </motion.a>
           </div>
 
           {/* Mobile Menu Button */}
