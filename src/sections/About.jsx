@@ -34,7 +34,7 @@ const About = () => {
             >
               <div className="absolute inset-0 bg-blue-500/20 rounded-xl transform rotate-3" />
               <img
-                src="../../public/assets/media/mypic.jpg"
+                src="../../assets/media/mypic.jpg"
                 alt="Profile"
                 className="rounded-xl relative z-10 w-full h-auto"
               />
